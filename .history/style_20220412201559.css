@@ -20,15 +20,3 @@ li {
     padding-left: 5px;
     padding-right: 5px;
 }
-li:first-child {
-    padding-left: 0px;
-}
-li:last-child {
-    border-right: none;
-}
-a {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}

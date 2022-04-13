@@ -10,7 +10,4 @@ function processLinks() {
         contents += '<li><a href="' + currentLink.href + '">' + currentLink.innerHTML + "</a></li>";
     } // end for
     contents += "</ul>";
-    document.getElementById("links").innerHTML = contents;
-} // end function processLinks
-
-window.addEventListener("load", processLinks, false);
+}
